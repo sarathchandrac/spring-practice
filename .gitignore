@@ -18,8 +18,17 @@
 *.zip
 *.tar.gz
 *.rar
+*.classpath
+*.prefs
+*.MF
+**/.idea
+**/.settings
+**/.project
+**/*.properties
+
 # Ide files #
 **.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.classpath
