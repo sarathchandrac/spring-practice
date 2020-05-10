@@ -1,5 +1,8 @@
 package org.spring.dl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -8,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
 
+
 @SpringBootApplication
 public class ApplicationLoggingApplication {
 	@Value("${welcome-message}")
@@ -15,6 +19,8 @@ public class ApplicationLoggingApplication {
 	
 	@Autowired
 	private Environment environment;
+	
+	private static final Logger logger = LoggerFactory.getLogger(ApplicationLoggingApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApplicationLoggingApplication.class, args);
@@ -26,8 +32,15 @@ public class ApplicationLoggingApplication {
 		return args -> {
 			System.out.println("args --> " + welcomeMsg);
 			
-			readEnvironmentInfo();
+			loggerInfo();
 		};
+	}
+	public void loggerInfo() {
+		logger.debug("Debug - Message is printed");
+		logger.trace("TRACE - Message is printed");
+		logger.info("INFO - Message is printed");
+		logger.error("ERROR - Message is printed");
+		logger.warn("WARNING - Message is printed");
 	}
 	public void readEnvironmentInfo() {
 		System.out.println("Environment - path ---> " + environment.getProperty("path"));
