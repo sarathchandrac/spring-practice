@@ -54,12 +54,12 @@ public class MobileController {
     @PutMapping
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void updateMobile(@RequestBody Mobile mobile){
-        mobileDaoService.saveMobile(mobile);
+        mobileDaoService.updateMobile(mobile);
     }
 
     @DeleteMapping("/{mobileId}")
     public boolean deleteMobileById(@PathVariable int mobileId){
-        return true;
+        return mobileDaoService.deleteMobile(mobileId);
     }
 
     /*
