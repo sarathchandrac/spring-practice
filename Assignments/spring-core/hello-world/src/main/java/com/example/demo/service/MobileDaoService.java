@@ -31,10 +31,10 @@ private final List<Mobile> mobiles = new ArrayList<>();
 		mobiles.set(mobileId, mobile);
 	}
 
-	public boolean deleteMobile(int mobileId) {
-		mobileById(mobileId);
-		mobiles.remove(mobileId);
-		return true;
+	public void deleteMobile(int mobileId) {
+		Mobile mobile = mobileById(mobileId);
+		mobiles.set(mobiles.indexOf(mobile), null);
+		//mobiles = mobiles.stream().filter(mobile1 -> mobile.getId() != mobileId);
 	}
 
 	private Mobile mobileById(int mobileId) {
@@ -49,7 +49,7 @@ private final List<Mobile> mobiles = new ArrayList<>();
 	@PostConstruct
 	public void initMobiles() {
 		mobiles.add(new Mobile(1, "Samsung", 10000));
-		mobiles.add(new Mobile(2, "MI", 12000));
+		mobiles.add(new Mobile(2, "MIV4", 12000));
 		mobiles.add(new Mobile(3, "Honor 20", 15000));
 		mobiles.add(new Mobile(4, "Redmi Note 8 Pro", 11500));
 		mobiles.add(new Mobile(5, "Vivo S1 Pro", 12000));

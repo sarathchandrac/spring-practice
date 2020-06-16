@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20180751-90d0-47d9-874d-0dcd5b40ab8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../parent-pom/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/palantir-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/src/site/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/bin/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/target/classes/META-INF/maven/org.example/parent-pom/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parent-pom/target/classes/META-INF/maven/org.example/parent-pom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../child-one/src/test/java/training/collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../child-one/src/main/java/training/collection/CollectionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1bMIoo8lIE6fN8OKPYuckZBATip" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20180751-90d0-47d9-874d-0dcd5b40ab8d" name="Default Changelist" comment="" />
+      <created>1588435713160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588435713160</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="572" y="147" key="FileChooserDialogImpl" timestamp="1588493182022">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="572" y="147" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1588493182022" />
+    <state width="1559" height="228" key="GridCell.Tab.0.bottom" timestamp="1588493288296">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="228" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588493288296" />
+    <state width="1559" height="228" key="GridCell.Tab.0.center" timestamp="1588493288295">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="228" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588493288295" />
+    <state width="1559" height="228" key="GridCell.Tab.0.left" timestamp="1588493288295">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="228" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588493288295" />
+    <state width="1559" height="228" key="GridCell.Tab.0.right" timestamp="1588493288295">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="228" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588493288295" />
+    <state x="345" y="53" key="NewModule_or_Project.wizard" timestamp="1588493222663">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="345" y="53" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1588493222663" />
+  </component>
+</project>

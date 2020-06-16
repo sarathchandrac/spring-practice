@@ -1,11 +1,13 @@
 package com.example.demo.model;
 
+import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="mobile")
 public class Mobile {
 	private int id;
+	@Size(min = 4)
 	private String name;
 	private int price;
 	@XmlElement

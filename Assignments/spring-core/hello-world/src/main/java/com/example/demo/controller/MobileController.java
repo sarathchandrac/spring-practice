@@ -13,6 +13,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
@@ -43,12 +44,13 @@ public class MobileController {
             MediaType.APPLICATION_XML_VALUE
     })
     @ResponseStatus(HttpStatus.CREATED)
-    public void saveMobile(HttpEntity<Mobile> httpEntity){
-        httpEntity.getHeaders().forEach((k,v) -> {
-            System.out.println("Key :" + k.toString());
-            System.out.println("Value :" + v.toString());
-        });
-        mobileDaoService.saveMobile(httpEntity.getBody());
+    public void saveMobile(@Valid @RequestBody Mobile mobile){
+        mobileDaoService.saveMobile(mobile);
+//        httpEntity.getHeaders().forEach((k,v) -> {
+//            System.out.println("Key :" + k.toString());
+//            System.out.println("Value :" + v.toString());
+//        });
+//        mobileDaoService.saveMobile(httpEntity.getBody());
     }
 
     @PutMapping
@@ -58,8 +60,9 @@ public class MobileController {
     }
 
     @DeleteMapping("/{mobileId}")
-    public boolean deleteMobileById(@PathVariable int mobileId){
-        return mobileDaoService.deleteMobile(mobileId);
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteMobileById(@PathVariable int mobileId){
+        mobileDaoService.deleteMobile(mobileId);
     }
 
     /*
